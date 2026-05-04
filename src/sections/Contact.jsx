@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { profile } from '../data/profile'
+import PersonChip from '../components/PersonChip'
 
 function LinkedinIcon() {
   return (
@@ -38,6 +39,10 @@ export default function Contact() {
           I&apos;m actively looking for new opportunities in data science and analytics.
           Whether you have a role, a project, or just want to connect — my inbox is always open.
         </p>
+
+        <div className="flex justify-center mb-6">
+          <PersonChip name={profile.name} initials="TA" />
+        </div>
 
         <div
           className="rounded-2xl px-6 py-5 mb-10 text-left"
