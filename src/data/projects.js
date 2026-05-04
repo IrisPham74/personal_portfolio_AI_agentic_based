@@ -31,6 +31,16 @@ export const projects = [
   },
   {
     id: 4,
+    title: 'Physical-Aware Deep Learning for Image Dehazing',
+    description:
+      'Proposed combining Space-Aware Deformable Convolution into a baseline deep learning model to improve image dehazing quality. Achieved PSNR ~23 and SSIM ~1, with applications in autonomous vehicles, traffic monitoring, and disaster management.',
+    tags: ['Python', 'Deep Learning', 'Computer Vision', 'Deformable Convolution', 'Image Processing'],
+    github: 'https://github.com/IrisPham74/NCKHSV',
+    live: '',
+    featured: true,
+  },
+  {
+    id: 5,
     title: 'Auto-BPO: Automated Black-Box Prompt Optimization',
     description:
       'Applied the Auto-BPO framework to automatically optimize prompts for black-box LLMs by refining human instructions. Enables efficient and interpretable alignment of API-only LLMs without high computational costs or training instability.',
