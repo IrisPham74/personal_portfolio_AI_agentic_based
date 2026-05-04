@@ -1,22 +1,22 @@
 export const education = [
   {
     id: 1,
-    degree: 'Master of Science in Data Science',
+    degree: 'Master of Science in Data Science and Artificial Intelligence',
     institution: 'Eindhoven University of Technology (TU/e)',
     location: 'Eindhoven, Netherlands',
-    period: '2023 – Present',
+    period: 'Sept 2025 – Present',
     description:
-      'Focusing on machine learning, statistical modeling, and data engineering. Thesis research on [your thesis topic here].',
-    highlights: ['GPA: [your GPA]', 'Specialization: [your track]'],
+      'Focusing on data science methodologies, artificial intelligence, and machine learning to address real-world challenges.',
+    highlights: [],
   },
   {
     id: 2,
-    degree: 'Bachelor of Science in [Your Major]',
-    institution: '[Your University]',
-    location: 'Vietnam',
-    period: '2018 – 2022',
+    degree: 'Bachelor of Science in Computer Science',
+    institution: 'University of Information Technology (UIT) – VNUHCM',
+    location: 'Ho Chi Minh City, Vietnam',
+    period: 'Sep 2021 – Sep 2024',
     description:
-      'Foundation in mathematics, programming, and [your field]. Graduated with honors.',
-    highlights: ['GPA: [your GPA]', 'Thesis: [your thesis title]'],
+      'Foundation in computer science, mathematics, and data-driven methodologies. Graduated with honors and school scholarships.',
+    highlights: ['GPA: 8.75/10', 'School Scholarships: Fall 2021–2022, Fall 2023–2024'],
   },
 ]

@@ -1,32 +1,42 @@
 export const projects = [
   {
     id: 1,
-    title: 'Project One',
+    title: 'Data Warehouse for Movie Trend Analysis (TMDB)',
     description:
-      'A full-stack application that solves X problem. Built with a focus on performance and user experience, handling Y users with Z key feature.',
-    tags: ['React', 'Node.js', 'PostgreSQL'],
-    github: 'https://github.com',
-    live: 'https://example.com',
+      'Built an ETL pipeline and analyzed data with machine learning models on the TMDB movies dataset. Supports filmmakers and producers in understanding market demands and making strategic decisions.',
+    tags: ['SQL', 'MDX', 'Power BI', 'Excel', 'ETL'],
+    github: 'https://github.com/IrisPham74',
+    live: '',
     featured: true,
   },
   {
     id: 2,
-    title: 'Project Two',
+    title: 'DirtSlurper 3100 — Survival Analysis',
     description:
-      'An open-source tool that streamlines the workflow for developers. Highlights key technical decisions around architecture and scalability.',
-    tags: ['TypeScript', 'Next.js', 'Tailwind CSS'],
-    github: 'https://github.com',
+      'Performed survival analysis models and hypothesis testing on the DirtSlurper 3100 vacuum cleaner dataset. Helps understand device reliability, identify failure patterns, and quantify the impact of factors on component longevity.',
+    tags: ['Python', 'Survival Analysis', 'Hypothesis Testing', 'Statistics'],
+    github: 'https://github.com/IrisPham74',
     live: '',
     featured: true,
   },
   {
     id: 3,
-    title: 'Project Three',
+    title: 'CO Forecasting Dashboard — Model Diagnostics',
     description:
-      'A data-driven dashboard providing real-time analytics. Demonstrates experience across backend APIs and frontend data visualization.',
-    tags: ['Python', 'FastAPI', 'Docker', 'React'],
-    github: 'https://github.com',
-    live: 'https://example.com',
+      'Built a visual analytics dashboard to forecast carbon monoxide levels using the UCI Air Quality dataset. Features interactive views for predictions, residuals, SHAP feature importances, Strategy Atlas clustering, and what-if analysis.',
+    tags: ['Python', 'Dash', 'Plotly', 'SHAP', 'UMAP', 'Scikit-learn', 'Random Forest'],
+    github: 'https://github.com/IrisPham74/Model-Diagnostic-for-CO-Forecasting-RFR-',
+    live: '',
+    featured: true,
+  },
+  {
+    id: 4,
+    title: 'Auto-BPO: Automated Black-Box Prompt Optimization',
+    description:
+      'Applied the Auto-BPO framework to automatically optimize prompts for black-box LLMs by refining human instructions. Enables efficient and interpretable alignment of API-only LLMs without high computational costs or training instability.',
+    tags: ['Python', 'LLM', 'Prompt Optimization', 'Black-Box Optimization', 'NLP'],
+    github: 'https://github.com/IrisPham74',
+    live: '',
     featured: true,
   },
 ]

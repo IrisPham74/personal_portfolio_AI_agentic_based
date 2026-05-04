@@ -1,26 +1,18 @@
 export const activities = [
   {
     id: 1,
-    role: '[Your Role]',
-    organization: '[Organization Name]',
-    period: '[Start] – [End]',
+    role: 'Head of Club',
+    organization: 'UIT Community Service Club',
+    period: '',
     description:
-      'Describe what you did, what you contributed, and the impact it had on the community or organization.',
+      'Led and managed community service initiatives at the University of Information Technology, organizing events and volunteer activities to contribute to the local community.',
   },
   {
     id: 2,
-    role: '[Your Role]',
-    organization: '[Organization Name]',
-    period: '[Start] – [End]',
+    role: 'Head of Association of the Class',
+    organization: "Vietnamese Students' Association",
+    period: '',
     description:
-      'Describe what you did, what you contributed, and the impact it had on the community or organization.',
-  },
-  {
-    id: 3,
-    role: '[Your Role]',
-    organization: '[Organization Name]',
-    period: '[Start] – [End]',
-    description:
-      'Describe what you did, what you contributed, and the impact it had on the community or organization.',
+      "Represented and led the class within the Vietnamese Students' Association, fostering a supportive academic and social environment for fellow students.",
   },
 ]

@@ -1,14 +1,18 @@
 export const skills = [
   {
-    category: 'Frontend',
-    items: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Framer Motion'],
+    category: 'Programming',
+    items: ['Python', 'SQL', 'MDX'],
   },
   {
-    category: 'Backend',
-    items: ['Node.js', 'Python', 'FastAPI', 'PostgreSQL', 'Redis'],
+    category: 'Data Engineering',
+    items: ['SSIS (ETL)', 'SSAS', 'SSRS', 'Microsoft BI'],
   },
   {
-    category: 'Tools & DevOps',
-    items: ['Git', 'Docker', 'Vite', 'Vercel', 'Figma'],
+    category: 'Visualization',
+    items: ['Power BI', 'Plotly & Dash', 'Matplotlib', 'Seaborn'],
+  },
+  {
+    category: 'Machine Learning',
+    items: ['Deep Learning', 'Survival Analysis', 'Forecasting', 'Prompt Optimization'],
   },
 ]
