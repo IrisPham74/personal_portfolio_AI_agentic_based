@@ -49,4 +49,14 @@ export const projects = [
     live: '',
     featured: true,
   },
+  {
+    id: 6,
+    title: 'Forecasting Cinema Box Office Hits',
+    description:
+      'Applied data mining and machine learning to predict movie box office success using historical cinema data. Includes exploratory data analysis, a trained decision tree classifier, and a Streamlit web interface for interactive predictions.',
+    tags: ['Python', 'Jupyter Notebook', 'Machine Learning', 'Data Mining', 'Streamlit'],
+    github: 'https://github.com/IrisPham74/CS331.O21.KHCL_FocastingMoviesSuccess',
+    live: '',
+    featured: true,
+  },
 ]
