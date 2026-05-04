@@ -9,8 +9,9 @@ export const profile = {
     { code: 'vn', label: 'Vietnam' },
     { code: 'nl', label: 'Netherlands' },
   ],
+  siteUrl: 'https://irispham74.com',
   social: {
-    github: 'https://github.com/irispham',
+    github: 'https://github.com/IrisPham74',
     linkedin: 'https://www.linkedin.com/in/thi-tram-anh-pham',
   },
   resumeUrl: '/resume.pdf',
