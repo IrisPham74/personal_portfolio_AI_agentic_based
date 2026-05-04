@@ -1,7 +1,5 @@
-import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { profile } from '../data/profile'
-import PersonChip from '../components/PersonChip'
 
 function LinkedinIcon() {
   return (
@@ -21,8 +19,6 @@ function GithubIcon() {
 }
 
 export default function Contact() {
-  const [chip, setChip] = useState(true)
-
   return (
     <section id="contact" className="py-28 px-6 max-w-5xl mx-auto">
       <motion.div
@@ -38,15 +34,22 @@ export default function Contact() {
         <h2 className="font-display text-4xl md:text-5xl font-semibold mb-5" style={{ color: 'var(--text)' }}>
           Get in touch
         </h2>
-        <p className="text-base leading-relaxed mb-10" style={{ color: 'var(--text-muted)' }}>
-          I&apos;m open to new opportunities, collaborations, or just a good conversation. My inbox is always open.
+        <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--text-muted)' }}>
+          I&apos;m actively looking for new opportunities in data science and analytics.
+          Whether you have a role, a project, or just want to connect — my inbox is always open.
         </p>
 
-        {chip && (
-          <div className="flex justify-center mb-6">
-            <PersonChip name={profile.name} image="/iris.jpg" onRemove={() => setChip(false)} />
-          </div>
-        )}
+        <div
+          className="rounded-2xl px-6 py-5 mb-10 text-left"
+          style={{ backgroundColor: 'var(--surface)', border: '1px solid var(--border)' }}
+        >
+          <p className="text-sm font-medium mb-1" style={{ color: 'var(--text)' }}>Hi there 👋</p>
+          <p className="text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+            I&apos;m Iris — a master&apos;s student in Data Science & AI at TU/e with hands-on experience in
+            machine learning, data engineering, and business analytics. I&apos;d love to hear about internship,
+            thesis, or full-time opportunities. Feel free to reach out!
+          </p>
+        </div>
 
         <a
           href={`mailto:${profile.email}`}
@@ -61,7 +64,7 @@ export default function Contact() {
             e.currentTarget.style.transform = 'translateY(0)'
           }}
         >
-          Say Hello
+          Email Me
         </a>
 
         <div className="flex items-center justify-center gap-6" style={{ color: 'var(--text-muted)' }}>

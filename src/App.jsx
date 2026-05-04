@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
-import BottomNav from './components/BottomNav'
 import Footer from './components/Footer'
 import Hero from './sections/Hero'
 import About from './sections/About'
@@ -39,7 +38,6 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
-      <BottomNav />
     </>
   )
 }
